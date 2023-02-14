@@ -20,7 +20,7 @@ function saur8_display_toc( $content ) {
         $headings = $xpath->query( '//h2|//h3|//h4|//h5|//h6' );
 
         if ( $headings->length > 0 ) {
-            $table_of_contents .= '<div id="table-of-contents"><p><strong>Table of Contents</strong></p><ul>';
+            $table_of_contents .= '<style>#table-of-contents {border-radius: 5px;box-shadow: 1px 1px 14px 1px rgb(0 0 0 / 20%);background-color: white;padding: 15px;}#table-of-contents a {text-decoration: none;}#table-of-contents a:hover {text-decoration: underline;}</style><div id="table-of-contents"><p><strong>Table of Contents</strong></p><ul>';
             $current_level = 2;
             $previous_level = 2;
             $toc_counter = 0;
