@@ -1,2 +1,2 @@
-# ProToc-saur8bh
-Generates a table of contents for your posts based on headings using Shortcode or Automatically
+# ProToc By Saur8bh
+ProToc By Saur8bh is a versatile WordPress plugin that enables you to easily generate a table of contents for your posts, based on headings. With the option to use a shortcode or have it automatically inserted into your content, this plugin provides a simple way to enhance the navigation of your site's content. Whether you're looking to improve user experience or boost your search engine optimization, PostToc By Saur8bh is a great tool to help you achieve your goals.
