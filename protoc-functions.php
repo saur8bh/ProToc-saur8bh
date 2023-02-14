@@ -57,8 +57,8 @@ function saur8_display_toc( $content ) {
     if ( has_shortcode( $content, 'saur8_toc' ) ) {
         $content = str_replace( '[saur8_toc]', $table_of_contents, $content );
     } elseif ( $option === 'automatic' ) {
-        // Add table of contents to content
-        $content = $table_of_contents . $content;
+        // Add table of contents before first heading
+    $content = preg_replace('/(<h[2-6].*?>)/', $table_of_contents.'$1', $content, 1);
     }
   }
     return $content;
